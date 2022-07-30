@@ -1,0 +1,144 @@
+:root {
+  --font-family: 'Carmen Sans';
+  --background: #FFFFFF;
+  --orange: #F2A809;
+  --black: #000000;
+  --brown: #3C3C3C;
+  --ash-color: #A7A7A7;
+  --light-ash: #A7A7A7;
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+html, body {
+    background: var(--background);
+  overflow: hidden;
+  
+ 
+}
+.external_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: var(--orange);
+  
+}
+
+
+
+ .container {
+   
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+  height: 541px;
+  width: 660px;
+  margin-left: 413px;
+  margin-right: 413px;
+  /*margin: 102px 0px;*/
+  border-radius: 15px;
+}
+
+.container img {
+  height: 100px;
+  width: 100px;
+
+
+}
+br {
+  visibility: hidden;
+}
+
+.container .welcome {  
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 30px;
+    color: var(--black);
+    width: 100%;
+
+}
+
+.container .help {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: var(--brown);
+  margin: 30px 0px;
+  width: 522px;
+
+}
+
+input {
+  padding-left: 5px;
+}
+input.check-carrier{
+  background-color: var(--orange);
+  color: var(--black);
+  font-family: var(--font-family);
+  width: 600px; 
+  height: 53px;
+  margin-left: -120px;
+  border-radius: 3px;
+  border: none;
+}
+
+form > input.client-name, input.client-phone {
+  margin-bottom: 18px; 
+/*   height: 53px; */
+  margin-left: -120px;
+/*   width: 450px; */
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* form:nth-child(2n+0) {
+  line-height: 3px;
+} */
+
+/* input.check-carrier {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 248px;
+gap: 10px;
+
+position: absolute;
+width: 598px;
+height: 53px;
+left: 456px;
+top: 659px;
+
+background: #F2A809;
+border-radius: 3px;
+} */
+
+.client-name  {
+  background: var(--background);
+  border: 1px solid var(--ash-color);
+  border-radius: 3px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--light-ash);
+  width: 600px;
+height: 51px;
+}
