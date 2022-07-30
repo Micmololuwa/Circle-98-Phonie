@@ -98,6 +98,8 @@ form > input.client-name, input.client-phone {
   margin-bottom: 18px; 
 /*   height: 53px; */
   margin-left: -120px;
+  focus: none;
+  color: black
 /*   width: 450px; */
   
 }
