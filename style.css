@@ -142,3 +142,157 @@ border-radius: 3px;
   width: 600px;
 height: 51px;
 }
+
+.client-phone {
+
+  background: var(--background);
+
+  border: 1px solid var(--light-ash);
+
+  border-radius: 3px;
+
+  width: 600px;
+
+  height: 51px;
+
+  font-family: var(--font-family);
+
+}
+
+ 
+
+ 
+
+div.response {
+
+  display: flex;
+
+  flex-direction: row;
+
+/*   justify-content: flex-start; */
+
+  align-items: center;
+
+  margin-left: -120px;
+
+}
+
+div.response img {
+
+  justify-self: flex-start;
+
+  height: 27px;
+
+  width: 27px;
+
+  border-radius: 0px;
+
+  margin-right: 20px;
+
+ 
+
+}
+
+ 
+
+div.response {
+
+  padding-bottom: 18px;
+
+}
+
+ 
+
+.response .response-text {
+
+  font-family: var(--font-family);
+
+  font-weight: 400;
+
+  font-size: 12px;
+
+  line-height: 17px;
+
+  color: var(--black);
+
+}
+
+ 
+
+ @media only screen and (max-width: 450px) {
+
+  .container {
+
+    height: 541px;
+
+    width: 300px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+  }
+
+  
+
+   .container > img {
+
+      height: 80px;
+
+      width: 80px;
+
+      margin: 20px 50px 0px 50px;
+
+}
+
+   .container .welcome  {
+
+     display: block;
+
+      width: 400px;
+
+      margin-left: -110px;
+
+     margin-top: 10px;
+
+      font-size: 22px;
+
+/*       display: flex;
+
+    justify-content: center;
+
+    align-content: center; */
+
+    
+
+    }
+
+   .container .help  {
+
+     display: block;
+
+  font-size: 20px;
+
+     margin-top: 10px;
+
+  width: 250px;
+
+  }
+
+  form > .client-name  {
+  width: 250px;
+  height: 41px;
+  }
+
+  .client-phone {
+    width: 250px;
+    height: 41px;
+  }
+
+  input.check-carrier{
+    width: 250px;
+    height: 41px;                   
+  }
+}
