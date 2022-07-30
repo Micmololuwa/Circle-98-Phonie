@@ -247,38 +247,22 @@ div.response {
 
 }
 
-   .container .welcome  {
+  .container .welcome  {
+  display: block;
+  width: 400px;
+  margin-left: -110px;
+  margin-top: 10px;
+  font-size: 22px;
+/*display: flex;
+  justify-content: center;
+  align-content: center; */
+}
 
-     display: block;
-
-      width: 400px;
-
-      margin-left: -110px;
-
-     margin-top: 10px;
-
-      font-size: 22px;
-
-/*       display: flex;
-
-    justify-content: center;
-
-    align-content: center; */
-
-    
-
-    }
-
-   .container .help  {
-
-     display: block;
-
+  .container .help  {
+  display: block;
   font-size: 20px;
-
-     margin-top: 10px;
-
+  margin-top: 10px;
   width: 250px;
-
   }
 
   form > .client-name  {
