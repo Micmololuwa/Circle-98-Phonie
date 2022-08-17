@@ -5,57 +5,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Name of chosen challenge</title>
+  <title>Phonie App</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
- <body>
+  <body>
 
-  <div class="external_container">
+    <div class="external_container">
 
-   
+      <div class="container">
 
- 
+        <img src="images/smartphone.svg" alt="phonie logo">
 
-    <div class="container">
-
-        <img src="smartphone.png" alt="phonie logo">
-
-        <p class="welcome">Hi, Welcome  to Phonie</p>
+        <p class="welcome">Hi, Welcome to Phonie</p>
 
         <p class="help">We will help you identify the carrier of your sim for free</p>
 
-        <form action="">
+        <form id="form" action="">
 
-            <input type="text" name="Client Name" class ="client-name" placeholder="What's your name?">
+          <input type="text" name="Client Name" class="client-name" placeholder="What's your name?">
 
-<!--           <br> -->
-
-            <input type="tel" class="client-phone" name="Client Phone Number" placeholder="Enter your phone number" minlength="11" maxlength="14">
+          <input type="tel" id="phone-number" class="client-phone" name="Client Phone Number"
+            placeholder="Enter your phone number" minlength="11" maxlength="14">
 
           <div class="response">
 
-            <img src="./Glo_button.png" alt="Glo-logo">
+            <!-- <img src="./Glo_button.png" alt="Glo-logo"> -->
 
-            <p class="response-text"> Your phone number is GLO</p>
+            <p class="response-text" id="response-text"> </p>
 
           </div>
 
-         
-
-            <input type="button" class="check-carrier" value="Check my carrier">
+          <input id="submit-btn" type="button" class="check-carrier" value="Check my carrier">
 
         </form>
 
-    </div>
+      </div>
 
     </div>
-  <!-- // ============= EEND DO NOT EDIT ============== // -->
-  <script src="index.mjs" type="module"></script>
-  <!-- // ============= EEND DO NOT EDIT ============== // -->
-</body>
+    <!-- // ============= EEND DO NOT EDIT ============== // -->
+    <script src="index.mjs" type="module"></script>
+    <!-- // ============= EEND DO NOT EDIT ============== // -->
+  </body>
 
 </html>
